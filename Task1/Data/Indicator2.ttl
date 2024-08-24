@@ -1,0 +1,41 @@
+@prefix : <http://www.blinded-for-review/rso/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rso: <http://www.blinded-for-review/rso#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix schema: <https://schema.org/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@base <http://www.blinded-for-review/rso/> .
+
+
+
+
+###  http://www.blinded-for-review/rso#Indicator2_302-1-b
+rso:Indicator2_302-1-b rdf:type owl:NamedIndividual ,
+                                rso:AbsoluteIndicator ,
+                                rso:Indicator ;
+                       dc:identifier "302-1-b" ;
+                       qudt:hasQuantityKind quantitykind:Energy ;
+                       qudt:hasUnit unit:J ;
+                       rso:hasApplicability rso:mandatory ;
+                       rso:hasMeasurementVariable rso:TotalFuelConsumptionWithinOrganizationFromRenewableSources ;
+                       rso:inDisclosure rso:Disclosure4_302-1 ;
+                       rso:inStandard rso:Standard2_GRI302 ;
+                       rso:isDefinedBy rso:GRI ;
+                       rso:measuresCoreTopic rso:CoreTopic2_Eng ;
+                       rso:measuresDimension rso:Environment ;
+                       rso:measuresGRITopic rso:GRITopic2_302 ;
+                       rdfs:label "Total fuel consumption within the organization from renewable sources, in joules or multiples, and including fuel types used." ;
+                       skos:prefLabel "Total fuel consumption within the organization from renewable sources, in joules or multiples, and including fuel types used." .
+
+
+

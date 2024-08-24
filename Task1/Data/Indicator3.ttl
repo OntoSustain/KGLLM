@@ -1,0 +1,40 @@
+@prefix : <http://www.blinded-for-review/rso/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rso: <http://www.blinded-for-review/rso#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix schema: <https://schema.org/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@base <http://www.blinded-for-review/rso/> .
+
+
+
+
+###  http://www.blinded-for-review/rso#Indicator3_305-1-a
+rso:Indicator3_305-1-a rdf:type owl:NamedIndividual ,
+                                 rso:AbsoluteIndicator ,
+                                 rso:Indicator ;
+                        dc:identifier "305-1-a" ;
+                        qudt:hasQuantityKind quantitykind:Mass ;
+                        qudt:hasUnit unit:TON_Metric ;
+                        rso:hasApplicability rso:mandatory ;
+                        rso:hasMeasurementVariable rso:GrossDirectScope1GHGEmissions ;
+                        rso:inDisclosure rso:Disclosure9_305-1 ;
+                        rso:inStandard rso:Standard3_GRI305 ;
+                        rso:isDefinedBy rso:GRI ;
+                        rso:measuresCoreTopic rso:CoreTopic3_Emi ;
+                        rso:measuresDimension rso:Environment ;
+                        rso:measuresGRITopic rso:GRITopic3_305 ;
+                        rdfs:label "Gross direct (Scope 1) GHG emissions in metric tons of CO2 equivalent." ;
+                        skos:prefLabel "Gross direct (Scope 1) GHG emissions in metric tons of CO2 equivalent." .
+
+
